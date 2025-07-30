@@ -4,8 +4,7 @@ import hb from 'C:\\Users\\Asus\\OneDrive\\Desktop\\fullstack\\src\\assests\\ima
 import hb2 from 'C:\\Users\\Asus\\OneDrive\\Desktop\\fullstack\\src\\assests\\images\\hb2.webp';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-// import hb from './assets/images/hb.webp';
-// import hb2 from './assets/images/hb2.webp';
+
 
 
 
