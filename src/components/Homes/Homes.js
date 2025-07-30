@@ -11,7 +11,7 @@ import ProductModel from "../../components/ProductModel";
 
 import cartimg1 from "../../assests/images/cartimg1.webp";
 import cartimg2 from "../../assests/images/cartimg2.webp";
-import cartimg3 from "../../assests/images/cartimg3.webp";
+
 import productimg from "../../assests/images/productimg.webp";
 import news from "../../assests/images/news.jpg";
 
@@ -65,7 +65,7 @@ function Homes() {
   return (
     <>
       <HomeBanner />
-      {/* <HomeCat/> */} {/* Commented out since unused */}
+     
 
       <section className="homeProduct">
         <div className="container">
@@ -164,11 +164,10 @@ function Homes() {
             </div>
           </div>
 
-          {/* second banner part */}
           <div className="row mt-5">
             <div className="col-md-3">
               <div className="banner ms-1">
-                <img src={cartimg3} alt="Banner product 2" className="cursor" />
+                <img src={cartimg2} alt="Banner product 2" className="cursor" />
               </div>
             </div>
 

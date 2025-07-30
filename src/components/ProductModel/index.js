@@ -1,7 +1,7 @@
 import Button from '@mui/material/Button';
 import Dialog from '@mui/material/Dialog';
 import { useContext, useEffect, useState } from 'react';
-import cartimg3 from "C:\\Users\\Asus\\OneDrive\\Desktop\\fullstack\\src\\assests\\images\\cartimg3.webp";
+
 import { Rating } from "@mui/material";
 import { IoCloseSharp } from "react-icons/io5";
 import { MyContext } from '../../App'; 
@@ -10,7 +10,7 @@ const ProductModel = ({ open, onClose, img }) => {
   const [counter, setCounter] = useState(1);
   const { handleAddToCart } = useContext(MyContext);
 
-  // ✅ Reset counter when modal is opened
+  
   useEffect(() => {
     if (open) setCounter(1);
   }, [open]);
@@ -21,7 +21,7 @@ const ProductModel = ({ open, onClose, img }) => {
         className='dialog'
         open={open}
         onClose={(event, reason) => {
-          // ✅ Ensure only close if not backdrop click
+         
           if (reason !== "backdropClick") {
             onClose();
           }
@@ -37,7 +37,7 @@ const ProductModel = ({ open, onClose, img }) => {
           </div>
 
           <div className='cartImg'>
-            {/* ✅ Conditional rendering to avoid null img error */}
+         
             {img ? (
               <img src={img} alt="Product" className='img' />
             ) : (
@@ -52,7 +52,7 @@ const ProductModel = ({ open, onClose, img }) => {
             </h6>
 
             <div className="counter">
-              {/* ✅ Prevent counter from going below 1 */}
+            
               <button
                 className='minus'
                 onClick={() => setCounter(prev => Math.max(1, prev - 1))}

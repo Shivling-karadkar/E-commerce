@@ -6,8 +6,8 @@ import { FaAngleDown } from "react-icons/fa";
 import { MdCloseFullscreen, MdAlternateEmail } from "react-icons/md";
 import { FaRegHeart } from "react-icons/fa6";
 
-import HomeBanner from "../../components/Header/HomeBanner"; // Adjust relative path
-// Removed unused import HomeCat
+import HomeBanner from "../../components/Header/HomeBanner"; 
+
 import ProductModel from "../../components/ProductModel";
 
 import cartimg1 from "../../assests/images/cartimg1.webp";
@@ -18,7 +18,7 @@ import news from "../../assests/images/news.jpg";
 
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-// If you have CSS for Home component
+
 
 const Home = () => {
   

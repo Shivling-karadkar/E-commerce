@@ -5,7 +5,8 @@ import SearchBox from './Header/SearchBox';
 import { FiUser } from "react-icons/fi";
 import { BsCartPlus } from "react-icons/bs";
 import Navagation from './Header/SearchBox/Navagation';
-import { MyContext } from 'C:\\Users\\Asus\\OneDrive\\Desktop\\fullstack\\src\\App.js';
+import { MyContext } from '../../App';
+
 import { useContext, useState } from 'react';
 
 const Header =()=>{
@@ -41,7 +42,7 @@ return(
                         <SearchBox/>
                         
 
-                        {/* login and part 3 */}
+                       
 
                             <div className='part3 d-flex align-item-center ms-auto'>
                                 <button className='user me-3'><FiUser /></button>
